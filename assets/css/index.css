@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#header{
+	color: white;
+background: linear-gradient(to left, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#logo{
+	font-size: 2rem;
+	margin-top: 5px;
+	text-shadow: 2px 2px 10px gray;
+}
+#menu ul li a{
+	color: white;
+	display: block;
+	margin-top: 5px;
+}
+
+#menu ul li a:hover{
+	background-color: #4A235A;
+}
+#header::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:70%;
+    background:url('../img/doctorbg.jpg') ;
+    z-index:-1;
+    top:0;
+    left:0;
+    opacity:0.89;
+}
+.cardsection{
+    margin-top:300px;
+}
+#cardsec button{
+    width:33vh;
+}
+footer {
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+    margin: 0px;
+  }
+
+  footer .fa {
+    padding: 20px;
+    font-size: 23px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .fa-whatsapp {
+    background: #25d366;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+
+  }

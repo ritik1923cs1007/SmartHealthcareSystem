@@ -1,0 +1,8 @@
+{% for p in patients %}
+<tr>
+  <td> {{p.get_name}}</td>
+  <td>{{p.symptoms}}</td>
+  <td>{{p.mobile}}</td>
+  <td><a class="btn btn-danger btn-xs" href="#"><span class="text-gradient"><i class="fas fa-times"></i></span></a></td>
+</tr>
+{% endfor %}

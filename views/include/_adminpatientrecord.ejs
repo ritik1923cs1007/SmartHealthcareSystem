@@ -1,0 +1,22 @@
+<% for(var i=0;i<users.length;i++){%>
+  <tr>
+    <td>
+      <%=users[i].firstname %>
+    </td>
+
+    <td>
+      <%=users[i].symptoms %>
+    </td>
+    <td>
+      <%=users[i].contactnumber %>
+    </td>
+    <td>
+      <%=users[i].address %>
+    </td>
+    <td><a class="btn btn-primary btn-xs" href="/admin-update-patient?id=<%=users[i]._id%>"><span
+          class="text-gradient"><i class="fas fa-pencil-alt"></i></span></a></td>
+    <td><a class="btn btn-danger btn-xs delete" id="delete" data-id=<%=users[i]._id%>><span class="text-gradient"><i
+            class="fas fa-times"></i></span></a></td>
+    </td>
+  </tr>
+  <%}%>

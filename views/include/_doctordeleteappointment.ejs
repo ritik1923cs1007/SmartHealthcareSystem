@@ -1,0 +1,15 @@
+<% for(var i=0;i<users.length;i++){%>
+  <tr>
+    <td>
+      <%=users[i].firstname %>
+    </td>
+    <td>
+      <%=users[i].age %>
+    </td>
+    <td>
+      <%=users[i].description %>
+    </td>
+    <td><a class="btn btn-danger btn-xs delete" id="delete" data-id=<%=users[i]._id%>><span class="text-gradient"><i
+            class="fas fa-times"></i></span></a></td>
+  </tr>
+  <%}%>
